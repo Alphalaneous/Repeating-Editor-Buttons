@@ -1,0 +1,47 @@
+{
+	"geode": "4.2.1",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "alphalaneous.repeating_editor_buttons",
+	"name": "Repeating Editor Buttons",
+	"version": "v1.0.0",
+	"developer": "Alphalaneous",
+	"description": "Hold a button to repeat",
+	"settings": {
+		"repeat-delay": {
+			"name": "Repeat Delay (ms)",
+            "description": "Time before repeat starts (ms)",
+            "type": "int",
+            "default": 500,
+			"min": 50,
+            "max": 10000
+		},
+		"repeat-rate": {
+			"name": "Repeat Rate (ms)",
+            "description": "Rate of repetitions (ms)",
+            "type": "int",
+            "default": 100,
+			"min": 5,
+            "max": 2000
+		}
+	},
+	"dependencies": [
+		{
+            "id": "geode.node-ids",
+            "version": ">=v1.13.2",
+            "importance": "required"
+        }
+    ],
+	"links": {
+        "homepage": "https://linktr.ee/Alphalaneous",
+        "source": "https://github.com/Alphalaneous/Repeating-Editor-Buttons",
+        "community": "https://discord.gg/Txn2CA5dHF"
+    },
+	"tags": [
+		"editor"
+	]
+}
